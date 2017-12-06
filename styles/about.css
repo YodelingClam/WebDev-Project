@@ -1,0 +1,25 @@
+#zack
+{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 200px;
+	border-radius: 5px;
+	border: 2px dashed green;
+	margin-right: 15px;
+}
+body
+{
+	width: 1000px;
+}
+p
+{
+	padding: 5px;
+	position: absolute;
+	right: 50px;
+	margin-top: 150px;
+	margin-left: 15px;
+	width: 500px;
+	background-color: lightgrey;
+	border-radius: 5px;
+}

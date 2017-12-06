@@ -1,0 +1,48 @@
+
+h3
+{
+	text-decoration: none;
+}
+p
+{
+	background-color: white;
+	width: auto;
+	display: inline-block;
+	padding: 5px;
+}
+hr
+{
+	border-color: green;
+}
+.exampleDiv
+{
+	width: 100%;
+	margin: 10px auto;
+	padding: 15px;
+	background-color: lightgrey;
+	border: 2px black double;
+	height: auto;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+#mainBody
+{
+	height: auto;
+	overflow-y: scroll;
+	max-height: 75%;
+	width: 95%;
+
+}
+#Example, #All, #Your
+{
+	height: 75px;
+	margin: auto;
+	font-size: 20pt;
+	background-color: darkgreen;
+	border: 3px double lightgreen;
+	border-radius: 10px;
+}
+* {overflow: -moz-scrollbars-none;}
+::-webkit-scrollbar { 
+    display: none; 
+}

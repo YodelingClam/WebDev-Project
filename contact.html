@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Submit Example</title>
+	<link rel="stylesheet" type="text/css" href="styles/nav.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/submit.js"></script>
+	<script type="text/javascript" src="js/xml_functions.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="mainNav">
+			<ul>
+				<li><a href="index.html">Try It</a></li>
+				<li><a href="examples.html">Examples</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a class="active" href="contact.html">Submit Example</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="mainBody">
+		<div class="container">  
+			<form id="example" action="#" onsubmit="submit:addExample()" method="post">
+				<h3>Create Example</h3>
+				<fieldset>
+					<label for="title">Example Title</label>
+					<input id="title" placeholder="Example Title" type="text" required autofocus>
+					<h4 id="title_error" class="error">Please enter an example title!</h4>
+				</fieldset>
+				<fieldset>
+					<label for="text">Example Description</label>
+					<textarea id="text" placeholder="Example Text" required></textarea>
+					<h4 id="text_error" class="error">Please enter an example description!</h4>
+				</fieldset>
+				<fieldset>
+					<label for="code">HTML example code</label>
+					<textarea id="code" placeholder="Type your Example Code Here...." required></textarea>
+					<h4 id="code_error" class="error">Please enter an example code!</h4>
+				</fieldset>
+				<fieldset>
+					<button name="submit" type="submit" id="example-submit">Submit</button>
+					<button name="reset" type="reset" id="example-reset">Clear</button>
+				</fieldset>
+			</form>
+		</div>
+	</section>
+	<div class="clear"></div>
+</body>
+</html>

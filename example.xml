@@ -1,0 +1,200 @@
+<examples>
+	<example>
+		<title>
+			HTML Documents
+		</title>
+		<text>
+			All HTML documents must start with a document type declaration: &amp;lt;!DOCTYPE html&amp;gt.&lt;br&gt;
+
+			The HTML document itself begins with &amp;lt;html&amp;gt; and ends with &amp;lt;/html&amp;gt.&lt;br&gt;
+
+			The visible part of the HTML document is between &amp;lt;body&amp;gt; and &amp;lt;/body&amp;gt;.
+		</text>
+		<code>
+			&amp;lt;!DOCTYPE html&amp;gt&lt;br&gt;
+			&amp;lt;html&amp;gt&lt;br&gt;
+			&amp;lt;body&amp;gt&lt;br&gt;
+
+			&amp;lt;h1&amp;gt;My First Heading&amp;lt;/h1&amp;gt&lt;br&gt;
+			&amp;lt;p&amp;gt;My first paragraph.&amp;lt;/p&amp;gt&lt;br&gt;
+
+			&amp;lt;/body&amp;gt&lt;br&gt;
+			&amp;lt;/html&amp;gt&lt;br&gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Headings
+		</title>
+		<text>
+			HTML headings are defined with the &amp;lt;h1&amp;gt; to &amp;lt;h6&amp;gt; tags.&lt;br&gt;
+
+			&amp;lt;h1&amp;gt; defines the most important heading. &amp;lt;h6&amp;gt; defines the least important heading: 
+		</text>
+		<code>
+			&amp;lt;h1&amp;gt;Heading 1&amp;lt;/h1&amp;gt&lt;br&gt;
+			&amp;lt;h2&amp;gt;Heading 2&amp;lt;/h2&amp;gt&lt;br&gt;
+			&amp;lt;h3&amp;gt;Heading 3&amp;lt;/h3&amp;gt&lt;br&gt;
+			&amp;lt;h4&amp;gt;Heading 4&amp;lt;/h4&amp;gt&lt;br&gt;
+			&amp;lt;h5&amp;gt;Heading 5&amp;lt;/h5&amp;gt&lt;br&gt;
+			&amp;lt;h6&amp;gt;Heading 6&amp;lt;/h6&amp;gt&lt;br&gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Horizontal Rules
+		</title>
+		<text>
+			The &amp;lt;hr&amp;gt; tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.&lt;br&gt;
+
+			The &amp;lt;hr&amp;gt; element is used to separate content (or define a change) in an HTML page:
+		</text>
+		<code>
+			&amp;lt;h1&amp;gt;This is heading 1&amp;lt;/h1&amp;gt;&lt;br&gt;
+			&amp;lt;p&amp;gt;This is some text.&amp;lt;/p&amp;gt;&lt;br&gt;
+			&amp;lt;hr&amp;gt;&lt;br&gt;
+			&amp;lt;h2&amp;gt;This is heading 2&amp;lt;/h2&amp;gt;&lt;br&gt;
+			&amp;lt;p&amp;gt;This is some other text.&amp;lt;/p&amp;gt;&lt;br&gt;
+			&amp;lt;hr&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Paragraphs
+		</title>
+		<text>
+			HTML paragraphs are defined with the &amp;lt;p&amp;gt; tag:
+		</text>;
+		<code>
+			&amp;lt;p&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt&lt;br&gt;
+			&amp;lt;p&amp;gt;This is another paragraph.&amp;lt;/p&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Line Breaks
+		</title>
+		<text>
+			The HTML &amp;lt;br&amp;gt; element defines a line break.&lt;br&gt;
+
+			Use &amp;lt;br&amp;gt; if you want a line break (a new line) without starting a new paragraph:
+		</text>
+		<code>
+			&amp;lt;p&amp;gt;This is&amp;lt;br&amp;gt;a paragraph&amp;lt;br&amp;gt;with line breaks.&amp;lt;/p&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Links
+		</title>
+		<text>
+			HTML links are defined with the &amp;lt;a&amp;gt; tag:
+		</text>
+		<code>
+			&amp;lt;a href="https://www.google.com"&amp;gt;This is a link&amp;lt;/a&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Images
+		</title>
+		<text>
+			HTML images are defined with the &amp;lt;img&amp;gt; tag.&lt;br&gt;
+
+			The source file (src), alternative text (alt), width, and height are provided as attributes:
+		</text>
+		<code>
+			&amp;lt;img src="image.jpg" alt="image" width="104" height="142"&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Comment Tags
+		</title>
+		<text>
+			You can add comments to your HTML source by using the following syntax:
+		</text>
+		<code>
+			&amp;lt;!-- Write your comments here --&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			The HTML Style Attribute
+		</title>
+		<text>
+			Setting the style of an HTML element, can be done with the style attribute.&lt;br&gt;
+
+			The HTML style attribute has the following syntax:
+		</text>
+		<code>
+			&amp;lt;tagname style="property:value;"&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Background Color
+		</title>
+		<text>
+			The background-color property defines the background color for an HTML element.&lt;br&gt;
+
+			This example sets the background color for a page to powderblue:
+		</text>
+		<code>
+			&amp;lt;body style="background-color:powderblue;"&amp;gt;&lt;br&gt;
+
+			&amp;lt;h1&amp;gt;This is a heading&amp;lt;/h1&amp;gt;&lt;br&gt;
+			&amp;lt;p&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt;&lt;br&gt;
+
+			&amp;lt;/body&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Text Color
+		</title>
+		<text>
+			The color property defines the text color for an HTML element:
+		</text>
+		<code>
+			&amp;lt;h1 style="color:blue;"&amp;gt;This is a heading&amp;lt;/h1&amp;gt;&lt;br&gt;
+			&amp;lt;p style="color:red;"&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Fonts
+		</title>
+		<text>
+			The font-family property defines the font to be used for an HTML element:
+		</text>
+		<code>
+			&amp;lt;h1 style="font-family:verdana;"&amp;gt;This is a heading&amp;lt;/h1&amp;gt;&lt;br&gt;
+			&amp;lt;p style="font-family:courier;"&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Text Size
+		</title>
+		<text>
+			The font-size property defines the text size for an HTML element:
+		</text>
+		<code>
+			&amp;lt;h1 style="font-size:300%;"&amp;gt;This is a heading&amp;lt;/h1&amp;gt;&lt;br&gt;
+			&amp;lt;p style="font-size:160%;"&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt;
+		</code>
+	</example>
+	<example>
+		<title>
+			HTML Text Alignment
+		</title>
+		<text>
+			The text-align property defines the horizontal text alignment for an HTML element:
+		</text>
+		<code>
+			&amp;lt;h1 style="text-align:center;"&amp;gt;Centered Heading&amp;lt;/h1&amp;gt;&lt;br&gt;
+			&amp;lt;p style="text-align:center;"&amp;gt;Centered paragraph.&amp;lt;/p&amp;gt;
+		</code>
+	</example>
+</examples>
